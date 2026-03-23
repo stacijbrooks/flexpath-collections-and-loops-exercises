@@ -164,7 +164,7 @@ function exercise_08() {
     
     Array Index: 
 		
-		Copy the array from exercise_08 below.
+		Copy the array from exercise_07.
 		Use indexOf() to find the position of 4 in the array.
     Then, using bracket notation on the `numbers` array, 
     print the element before and the element after 4 in the array
