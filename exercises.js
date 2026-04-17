@@ -20,7 +20,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   */
 
   // Modify the line of code BELOW to run a different exercise
-  exercise_01();
+  exercise_04();
   // Modify the line of code ABOVE to run a different exercise
 }
 
@@ -39,7 +39,9 @@ function exercise_01() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code in this space";
+  let numbers = [21, 22, 23, 24, 25];
+  console.log(numbers);
+  console.log(numbers.length);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -57,7 +59,9 @@ function exercise_02() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code in this space";
+ let numbers = [16, 17, 18, 19, 20];
+ console.log(numbers[0]);
+ console.log(numbers[numbers.length - 1]);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -76,7 +80,14 @@ function exercise_03() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code in this space";
+let numbers = [];
+numbers.push(1);
+numbers.push(2);
+numbers.push(3);
+numbers.push(4);
+numbers.push(5);
+
+console.log(numbers);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -95,7 +106,9 @@ function exercise_04() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code in this space";
+  let items = ["apple", "banana", "cherry", "date", "elderberry"];
+  items.unshift(1);
+  console.log(items);
 
   // CODE IN THE OPEN LINES ABOVE
 }
